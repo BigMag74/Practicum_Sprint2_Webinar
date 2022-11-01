@@ -5,6 +5,7 @@ public class Elevator {
     short maxFloor;
     int maxWeight;
     int currentWeight;
+    int newPole;
 
     public Elevator(short maxFloor, int maxWeight) {
         this.maxFloor = maxFloor;
